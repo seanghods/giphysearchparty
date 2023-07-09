@@ -6,9 +6,17 @@
     <link rel="stylesheet" href="./styles.css">
     <title>GIPHY Search Party!</title>
 </head>
-<body>
+<body class="container">
+    <h1>GIPHY Search Party!</h1>
+    <form action="#" id="newGiphySearch">
+        <label for="task">Search </label>
+        <input type="text" name="task" id="task" autofocus>
+        <input type="submit" id="submit" class="btn" value="Search GIPHY!">
+        <button id="remove" class="btn" >Remove Images</button>
+    </form>
+    <div class="gif_area">
 
-
+    </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
    <script src="script.js"></script> 
 </body>
